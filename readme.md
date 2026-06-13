@@ -25,7 +25,7 @@ expanding or compressing relative to the rate environment.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/[username]/market-intelligence-platform.git
+git clone https://github.com/tang-lewis/market-intelligence-platform.git
 cd market-intelligence-platform
 
 # 2. Create and activate a virtual environment
