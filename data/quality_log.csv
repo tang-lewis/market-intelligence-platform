@@ -1,0 +1,7 @@
+timestamp_utc,source,event_type,detail,disposition
+2026-06-12T02:00:31.512912+00:00,yahoo_finance,SCHEMA_CHANGE,"Missing expected columns: {'Volume', 'Low', 'High', 'Close', 'Open'}",PIPELINE_HALTED
+2026-06-12T02:01:28.944465+00:00,yahoo_finance,SCHEMA_CHANGE,"Missing expected columns: {'High', 'Close', 'Low', 'Volume', 'Open'}",PIPELINE_HALTED
+2026-06-12T02:05:16.421822+00:00,rba,HTTP_ERROR,404 Client Error: Not Found for url: https://www.rba.gov.au/statistics/tables/xls-hist/f1-1hist.xls,PIPELINE_HALTED
+2026-06-12T02:09:44.453752+00:00,rba,HTTP_ERROR,404 Client Error: Not Found for url: https://www.rba.gov.au/statistics/tables/xls/f1-1.xls,PIPELINE_HALTED
+2026-06-12T02:10:58.311442+00:00,rba,PARSE_ERROR,"XLS parse failed: Unsupported format, or corrupt file: Expected BOF record; found b'\xef\xbb\xbfF1.1 '",PIPELINE_HALTED
+2026-06-12T02:14:27.662163+00:00,rba,SCRAPE_ERROR,<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)>,PIPELINE_HALTED
